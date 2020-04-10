@@ -1,0 +1,65 @@
+.todo-form {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: rgba(173, 173, 173, 0.5);
+}
+
+.todo-form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.todo-form form div {
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.todo-form form div input {
+  width: 85%;
+  margin-left: 5px;
+  background-color: inherit;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+}
+
+.todo-form form button {
+  background-color: inherit;
+  border: 0;
+  border-left: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 40px;
+  color: white;
+  font-size: 2rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.todo-form form button > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-form form button:hover {
+  cursor: pointer;
+  background-color: rgba(173, 173, 173, 0.25);
+}
+
+.todo-form form label[for="task"] {
+  transition: 0.3s;
+}

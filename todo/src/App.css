@@ -1,0 +1,44 @@
+.App {
+  padding-top: 10px;
+  background-image: url("./img/backgroundToo.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .main-heading h1 {
+  margin-left: 40%;
+}
+
+/* Gear SVG */
+.App .main-heading *:last-child {
+  margin-right: 5px;
+  transition: 0s;
+}
+
+.App .main-heading *:last-child:hover {
+  fill-opacity: 0.3;
+  cursor: pointer;
+}
+
+.settings-open *:last-child {
+  fill-opacity: 0.3;
+}
+
+.App .main-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* fill:white; */
+  fill: rgba(173, 173, 173);
+  fill-opacity: 0.2;
+  stroke: white;
+}
+
+label:hover {
+  cursor: pointer;
+}

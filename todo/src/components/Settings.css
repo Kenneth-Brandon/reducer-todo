@@ -1,0 +1,44 @@
+.settings {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: rgba(173, 173, 173, 0.3);
+  min-width: 40%;
+  max-width: 90%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.settings .option {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings button {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: rgba(173, 173, 173, 0);
+  font-size: inherit;
+  color: white;
+}
+
+.settings button:hover {
+  cursor: pointer;
+  background-color: rgba(173, 173, 173, 0.3);
+}
+
+.settings button.inactive {
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+
+.settings button.inactive:hover {
+  cursor: default;
+  background-color: inherit;
+}
